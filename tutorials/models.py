@@ -1,0 +1,25 @@
+from django.db import models
+
+
+class Covid(models.Model):
+    Date = models.CharField(max_length=100, blank=False, default='')
+    Total_Cases = models.CharField(max_length=200, blank=False, default='')
+    New_Cases = models.CharField(max_length=200, blank=False, default='')
+    Total_Deaths = models.CharField(max_length=200, blank=False, default='')
+    New_Deaths = models.CharField(max_length=200, blank=False, default='')
+    Total_Recovred = models.CharField(max_length=200, blank=False, default='')
+    New_Recovred = models.CharField(max_length=200, blank=False, default='')
+    Eliminated_Cases = models.CharField(max_length=200, blank=False, default='')
+    Active_Cases = models.CharField(max_length=200, blank=False, default='')
+    Tanger_Tetouan_AlHoceima = models.CharField(max_length=200, blank=False, default='')
+    Oriental = models.CharField(max_length=200, blank=False, default='') 
+    Fes_Meknes = models.CharField(max_length=200, blank=False, default='')
+    Rabat_Sale_Kenitra = models.CharField(max_length=200, blank=False, default='')
+    BeniMellal_Khenifra = models.CharField(max_length=200, blank=False, default='')
+    Casablanca_Settat = models.CharField(max_length=200, blank=False, default='')
+    Marrakech_Safi = models.CharField(max_length=200, blank=False, default='')
+    Draa_Tafilalet = models.CharField(max_length=200, blank=False, default='')
+    Sous_Massa = models.CharField(max_length=200, blank=False, default='')
+    Guelmim_OuedNoun = models.CharField(max_length=200, blank=False, default='')
+    Laayoune_SaguiaalHamra = models.CharField(max_length=200, blank=False, default='')
+    EdDakhla_OuededDahab = models.CharField(max_length=200, blank=False, default='')
