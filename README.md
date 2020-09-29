@@ -1,4 +1,4 @@
-###### Morocco Covid-19 data analysis & Prediction, news headlines scrapping and sentimental analysis using machine learning models in a multi agents system architecture.
+# Morocco Covid-19 data analysis & Prediction, news headlines scrapping and sentimental analysis using machine learning models in a multi agents system architecture.
 
 ### Objective:
 The main objective of the project is the implementation of an intelligent multi-agent system based on several supervised and unsupervised learning algorithms. The system will be composed of several intelligent and interactive agents, from which each agent performs a specific task. In addition to a Single page Application (Angular based) that will interact with the system.
